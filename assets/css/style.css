@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 14px;
+	padding-right: 14px;
+}
+
+/*Primera Sección*/
+
+header{
+	background-color: #53F32E;
+	color : #FFFFFF;
+	font-family: 'Raleway', sans-serif;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	font-weight: 400;
+} 
+
+header .container{
+	text-align: right;
+}
+
+header .container p{
+	padding-bottom: 1em; /*16 pixeles- bottom */
+}
+
+/* Segunda Sección */
+
+.portada{
+	background-image:url(../img/one.jpg);
+	height: 100vh; /*a cada seccion usar el 100 de la pantalla en la que este*/
+    background-size: cover;
+    background-position: center;
+    filter: blur(20px); /*desaturando las imagenes*/
+}   
+
+/*Fin segunda Seccion*/
+.third{
+
+	background-color: #6E6E6E;    /*Cuadrado Gris*/
+	height: 100vh;
+	text-align: center;
+}
+
+.third .about-pandas{
+	width: 550px;
+	padding: 20px;
+	margin: 0 auto;
+	position: relative;
+	top:12em;
+	background-color: #53F32E;
+
+}
+
+.about-pandas h3{
+	color: #FFFFFF;
+}
+
+.about-pandas p{
+	color: #FFFFFF;
+	font-family: 'Raleway', sans-serif;
+}
+
+.portada2{
+	background-image: url(../img/two.jpg);
+}
+
+footer{
+	background-color: #53F32E;
+	color: #FFFFFF;
+	padding: 1em 1em;
+	text-align: center;
+	font-weight: 400px;
+	font-family: 'Raleway', sans-serif;
+}
